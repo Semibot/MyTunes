@@ -58,7 +58,6 @@ public class MyPrivateTunesCollectionController implements Initializable {
     private ListView<String> songsOnPlaylist;
     private MyTunesLogic bll;
     
-    
     public MyPrivateTunesCollectionController(){
         bll = new MyTunesLogic();
     }

@@ -21,7 +21,12 @@ public class PlaylistSongRelationDAO{
     SQLServerDataSource ds;
     
     public PlaylistSongRelationDAO(){
-        
+        ds = new SQLServerDataSource();
+        ds.setDatabaseName("MyPrivateTunesCollection");
+        ds.setUser("CS2018B_3");
+        ds.setPassword("CS2018B_3");
+        ds.setPortNumber(1433);
+        ds.setServerName("10.176.111.31");
     }
     
     //Crud Create
