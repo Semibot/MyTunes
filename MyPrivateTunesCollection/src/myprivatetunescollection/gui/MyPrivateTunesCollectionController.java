@@ -34,28 +34,17 @@ public class MyPrivateTunesCollectionController implements Initializable {
     private ObservableList listPlaylist = FXCollections.observableArrayList();
     private ObservableList listPSRelation = FXCollections.observableArrayList();
     
-    @FXML
-    private Button previousBtn;
-    @FXML
-    private Button playBtn;
-    @FXML
-    private Button nextBtn;
-    @FXML
-    private Label speakerLbl;
-    @FXML
-    private Button searchBtn;
-    @FXML
-    private Button upBtn;
-    @FXML
-    private Button downBtn;
-    @FXML
-    private Button leftBtn;
-    @FXML
-    private ListView<Playlist> playList;
-    @FXML
-    private ListView<Song> songs;
-    @FXML
-    private ListView<String> songsOnPlaylist;
+    @FXML private Button previousBtn;
+    @FXML private Button playBtn;
+    @FXML private Button nextBtn;
+    @FXML private Label speakerLbl;
+    @FXML private Button searchBtn;
+    @FXML private Button upBtn;
+    @FXML private Button downBtn;
+    @FXML private Button leftBtn;
+    @FXML private ListView<Playlist> playList;
+    @FXML private ListView<Song> songs;
+    @FXML private ListView<String> songsOnPlaylist;
     private MyTunesLogic bll;
     
     public MyPrivateTunesCollectionController(){
